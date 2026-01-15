@@ -1,3 +1,49 @@
+body{
+    /* background-color: rgba(170, 170, 170, 1); */
+}
 .flex{
     display: flex;
+}
+
+.text-b{
+    color: #3A3A3A;
+}
+/* nav */
+.navbar,.bannar{
+    max-width: 1440px;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h4{
+    font-size: 1.2rem;
+    font-weight: 900;
+}
+.nav-contain{
+    align-items: center;
+    gap:4px;
+}
+.manu{
+    list-style: none;
+}
+.links{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.icon{
+    padding-right: 16px;
+}
+/* bannar */
+.bannar{
+    padding-top: 20px;
+}
+.heading{
+    font-size: 3.4rem;
+    font-weight: 900;
+}
+.paragraph{
+    font-size: 1rem;
+    font-weight: 600;
 }
