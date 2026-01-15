@@ -16,6 +16,11 @@ body{
     border: none;
     border-radius: 20px;
     padding: 15px;
+    
+}
+.btn:hover{
+   background-color: #c9054a;
+   font-size: 1.2rem;
 }
 main > section{
     margin-top: 90px;
@@ -64,6 +69,26 @@ main > section{
 
 
 /* main */
+/* brands section */
+.brands-name{
+    max-width: 1110px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #AAAAAA;
+    border-left: none;
+    border-right: none;
+    
+
+}
+.brands-name img{
+    padding: 30px;
+    /* align-items: center; */
+}
 /* card section */
 .card-containar{
     max-width: 1440px;
@@ -88,6 +113,7 @@ main > section{
 .card-head{
     font-size: 1.8rem;
     font-weight: 300;
+    margin-left: -240px;
 }
 .card h4{
     font-size: 1rem;
